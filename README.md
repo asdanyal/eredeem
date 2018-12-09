@@ -37,7 +37,9 @@ This API is used to register new users to our application. Following are the end
 ### Web Application
 
 #### Screen Shot 1
+![WEB APP](https://github.com/asdanyal/eredeem/blob/master/web%20app/static/images/01.png)
 #### Screen Shot 2
+![WEB APP](https://github.com/asdanyal/eredeem/blob/master/web%20app/static/images/04.png)
 #### Screen Shot 3
- 
+![Logo](https://github.com/asdanyal/eredeem/blob/master/web%20app/static/images/03.png) 
 
