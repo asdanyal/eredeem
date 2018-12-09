@@ -5,3 +5,6 @@ E-Redeem
 
 
 ![Users API](https://github.com/asdanyal/eredeem/blob/master/User%20Service/images/User%20Service%20API.PNG)
+
+
+![Users API](https://github.com/asdanyal/eredeem/blob/master/User%20Service/images/User%2002.PNG)
