@@ -33,3 +33,11 @@ This API is used to register new users to our application. Following are the end
 
 #### Screen Shot 2
 ![Users API](https://github.com/asdanyal/eredeem/blob/master/User%20Service/images/User%2002.PNG)
+
+### Web Application
+
+#### Screen Shot 1
+#### Screen Shot 2
+#### Screen Shot 3
+ 
+
