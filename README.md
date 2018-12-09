@@ -3,10 +3,11 @@ E-Redeem
 
 ##Technology
 
-All the services and web application are created using
+All the services and web application are created in JAVA using
 * Spring Boot
 * Spring MVC
 * Spring Data
+* Spring Security
 * Swagger
 * MongoDB
 
