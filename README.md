@@ -10,6 +10,7 @@ All the services and web application are created in JAVA using
 * Spring Security
 * Swagger
 * MongoDB
+* Velocity Template Engine (VTL)
 
 ##API's Information
 We have created 2 API's
