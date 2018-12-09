@@ -1,7 +1,7 @@
 E-Redeem
 --------
 
-##Technology
+## Technology
 
 All the services and web application are created in JAVA using
 * Spring Boot
@@ -12,7 +12,7 @@ All the services and web application are created in JAVA using
 * MongoDB
 * Velocity Template Engine (VTL)
 
-##API's Information
+## API's Information
 We have created 2 API's
 * Devices API
 * Users API
