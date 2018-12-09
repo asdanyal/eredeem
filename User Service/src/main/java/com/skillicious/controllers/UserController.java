@@ -15,6 +15,7 @@ import java.util.List;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.CREATED;
+import static org.springframework.http.HttpStatus.OK;
 
 @RestController
 @Api( value = "User Service REST End Points", description = "Shows Users Info")
@@ -57,6 +58,29 @@ public class UserController {
 
         userRepository.save(user);
         return new ResponseEntity<>(user, CREATED);
+
+    }
+
+    @ApiOperation("Edit Current User Information")
+    @PutMapping("/edit/{id}")
+    private ResponseEntity<?> editUser(@RequestBody User request,@PathVariable("id") String id, BindingResult errors){
+
+        User user = new User();
+
+        if(errors.hasErrors()) {
+            return new ResponseEntity<>(new Message(errors.getAllErrors().get(0).getDefaultMessage()), BAD_REQUEST);
+        }
+
+        user.setId(id);
+        user.setFirstName(request.getFirstName().trim());
+        user.setLastName(request.getLastName().trim());
+        user.setUserName(request.getUserName().trim().toLowerCase());
+        user.setPassword(request.getPassword().trim());
+        user.setEmail(request.getEmail().trim().toLowerCase());
+        user.setLinkedIn(request.getLinkedIn());
+
+        userRepository.save(user);
+        return new ResponseEntity<>(user, OK);
 
     }
 
