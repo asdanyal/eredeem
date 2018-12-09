@@ -1,5 +1,24 @@
 # RE-DEEEM
 
+## Inspiration
+
+Privileged class have unused computers lying idle with them whereas the underprivileged class does not have any.
+
+## What it does
+
+1-Our service collects computers from the donors and gives them to the needy people at Donor price. We shall install some useful educational content prior to handing over the computers. Inserting data would firstly ensure data privacy of the donor data and secondly promote Education & spread IT awareness.
+
+2-Secondly this service will reduce the pace of electronic waste through the methodology of REUSE and REPAIR of old equipment.
+
+
+## Challenges we ran into
+
+1-Each of our team member had the passion to participate but did not have a full team, it took us 1.5 days to finally collaborate. 2-The area that we have touched is a emerging global issue but most of the economies are undocumented, therefore finding relevant data was a big challenge.
+
+## What's next for REDEEEM
+
+In the longer run the platform would serve to create awareness in the community towards the grave issue of electronic waste disposal and illegal smuggling.
+
 ## Technology
 
 All the services and web application are created in JAVA using
